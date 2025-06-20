@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.0efc19fd.css",
+    "main.js": "/e-commerce/static/js/main.e3ba6a96.js",
+    "static/media/pexels-frendsmans-1926769.jpg": "/e-commerce/static/media/pexels-frendsmans-1926769.443cbf95668ba563a989.jpg",
+    "static/media/pexels-pavel-danilyuk-6461325.jpg": "/e-commerce/static/media/pexels-pavel-danilyuk-6461325.e02363b647d01102867d.jpg",
+    "static/media/blackbg.mp4": "/e-commerce/static/media/blackbg.a03e94c1dd21e213356f.mp4",
+    "static/media/pexels-harsh-kushwaha-804217-1721558.jpg": "/e-commerce/static/media/pexels-harsh-kushwaha-804217-1721558.db852d98dd58209c80e1.jpg",
+    "static/media/Rectangle 50.png": "/e-commerce/static/media/Rectangle 50.11692033596b74c75b8e.png",
+    "static/media/Rectangle 49.png": "/e-commerce/static/media/Rectangle 49.7d946b377fb886e5b89a.png",
+    "static/media/gal2.jpg": "/e-commerce/static/media/gal2.d9afa6e45f38e0dccba7.jpg",
+    "static/media/gal3.jpg": "/e-commerce/static/media/gal3.874d8fb933df126a11a6.jpg",
+    "static/media/banger.jpg": "/e-commerce/static/media/banger.1f3d44736795cbe848c8.jpg",
+    "static/media/gal1.jpg": "/e-commerce/static/media/gal1.8294cf6b25eff3a3f9e6.jpg",
+    "static/media/pngblack.webp": "/e-commerce/static/media/pngblack.0ee815a24ca976231a97.webp",
+    "static/media/Rectangle 41.png": "/e-commerce/static/media/Rectangle 41.eb77903187d56663eb9f.png",
+    "static/media/Rectangle 38.png": "/e-commerce/static/media/Rectangle 38.a6b2f2c0d0c17de32c5f.png",
+    "static/media/logostanley.png": "/e-commerce/static/media/logostanley.d023fa36f4fc6fca6bd0.png",
+    "index.html": "/e-commerce/index.html",
+    "main.0efc19fd.css.map": "/e-commerce/static/css/main.0efc19fd.css.map",
+    "main.e3ba6a96.js.map": "/e-commerce/static/js/main.e3ba6a96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0efc19fd.css",
+    "static/js/main.e3ba6a96.js"
+  ]
+}
