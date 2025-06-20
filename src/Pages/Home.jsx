@@ -46,7 +46,7 @@ function Home() {
       
       
       <div className="content">
-        <h1>Welcome to</h1>
+        <h1>Welcome To</h1>
         <img src={a} alt="Logo" />
         <p>Your one-stop shop for reliable tools, clothes, and accessories.</p>
       </div>
@@ -70,20 +70,6 @@ function Home() {
            </div>
           </div>
       </section>
-
-     
-      <section className="hero">
-        <div id='child1'>   
-          
-         <h1>LET’S  EXPLORE UNIQUE CLOTHES.</h1>
-        <p>Live for Influential and Innovative fashion!</p>
-        <button onClick={()=>Explore()}>Shop Now</button>
-       
-      </div>
-      
-     
-</section>
-
       <section id='brands'>
       <div  id='brands1'>
          <div id='scroll1'>
@@ -107,6 +93,20 @@ function Home() {
        
       </div>
       </section>
+     
+      <section className="hero">
+        <div id='child1'>   
+          
+         <h1>LET’S  EXPLORE UNIQUE CLOTHES.</h1>
+        <p>Live for Influential and Innovative fashion!</p>
+        <button onClick={()=>Explore()}>Shop Now</button>
+       
+      </div>
+      
+     
+</section>
+
+      
 
     
     

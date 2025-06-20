@@ -175,18 +175,24 @@ section {
   section{
     
      width: 100%;
-    height: calc(100vh - 60px); /* Adjust for nav height */
+    height: calc(100vh - 60px); 
     overflow-y: auto;
+    
+     @media (max-width:480px) {
+  
+   padding: 0%;
+     
+  
+}
+@media screen and (min-width:480px)  and (max-width:768px) {
+  
+  padding: 0%;
+}
 
   }
   
   
   
  
-  /* nav a {
-    font-size: 10px;
-    
-    
-  }
-   */
+ 
 }
