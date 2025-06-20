@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.0efc19fd.css",
-    "main.js": "/e-commerce/static/js/main.e3ba6a96.js",
+    "main.css": "/e-commerce/static/css/main.f745e4f2.css",
+    "main.js": "/e-commerce/static/js/main.1ee11e1f.js",
     "static/media/pexels-frendsmans-1926769.jpg": "/e-commerce/static/media/pexels-frendsmans-1926769.443cbf95668ba563a989.jpg",
-    "static/media/pexels-pavel-danilyuk-6461325.jpg": "/e-commerce/static/media/pexels-pavel-danilyuk-6461325.e02363b647d01102867d.jpg",
     "static/media/blackbg.mp4": "/e-commerce/static/media/blackbg.a03e94c1dd21e213356f.mp4",
     "static/media/pexels-harsh-kushwaha-804217-1721558.jpg": "/e-commerce/static/media/pexels-harsh-kushwaha-804217-1721558.db852d98dd58209c80e1.jpg",
     "static/media/Rectangle 50.png": "/e-commerce/static/media/Rectangle 50.11692033596b74c75b8e.png",
@@ -17,11 +16,11 @@
     "static/media/Rectangle 38.png": "/e-commerce/static/media/Rectangle 38.a6b2f2c0d0c17de32c5f.png",
     "static/media/logostanley.png": "/e-commerce/static/media/logostanley.d023fa36f4fc6fca6bd0.png",
     "index.html": "/e-commerce/index.html",
-    "main.0efc19fd.css.map": "/e-commerce/static/css/main.0efc19fd.css.map",
-    "main.e3ba6a96.js.map": "/e-commerce/static/js/main.e3ba6a96.js.map"
+    "main.f745e4f2.css.map": "/e-commerce/static/css/main.f745e4f2.css.map",
+    "main.1ee11e1f.js.map": "/e-commerce/static/js/main.1ee11e1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0efc19fd.css",
-    "static/js/main.e3ba6a96.js"
+    "static/css/main.f745e4f2.css",
+    "static/js/main.1ee11e1f.js"
   ]
 }
