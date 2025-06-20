@@ -1,0 +1,104 @@
+.viewmore-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewmore-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.viewmore-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.viewmore-container p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.viewmore-container .price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222;
+}
+
+.viewmore-container .buttons {
+  display: flex;
+  gap: 15px;
+  
+  flex-wrap: wrap;
+  margin-top: 20px;
+  /* justify-content: center; */
+}
+
+.viewmore-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.viewmore-container button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.viewmore-container button:first-child:hover {
+  background-color: #218838;
+}
+
+.viewmore-container button:last-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.viewmore-container button:last-child:hover {
+  background-color: #0056b3;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  .viewmore-container {
+    max-width: 80%;
+  }
+  .viewmore-container h2 {
+    font-size: 28px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .viewmore-container {
+    max-width: 700px;
+  }
+
+  .viewmore-container p {
+    font-size: 17px;
+  }
+
+  .viewmore-container button {
+    font-size: 17px;
+  }
+}
