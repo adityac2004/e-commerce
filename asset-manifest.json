@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.f745e4f2.css",
-    "main.js": "/e-commerce/static/js/main.1ee11e1f.js",
+    "main.css": "/e-commerce/static/css/main.ec5c9c5b.css",
+    "main.js": "/e-commerce/static/js/main.7202d46b.js",
     "static/media/pexels-frendsmans-1926769.jpg": "/e-commerce/static/media/pexels-frendsmans-1926769.443cbf95668ba563a989.jpg",
     "static/media/blackbg.mp4": "/e-commerce/static/media/blackbg.a03e94c1dd21e213356f.mp4",
     "static/media/pexels-harsh-kushwaha-804217-1721558.jpg": "/e-commerce/static/media/pexels-harsh-kushwaha-804217-1721558.db852d98dd58209c80e1.jpg",
@@ -16,11 +16,11 @@
     "static/media/Rectangle 38.png": "/e-commerce/static/media/Rectangle 38.a6b2f2c0d0c17de32c5f.png",
     "static/media/logostanley.png": "/e-commerce/static/media/logostanley.d023fa36f4fc6fca6bd0.png",
     "index.html": "/e-commerce/index.html",
-    "main.f745e4f2.css.map": "/e-commerce/static/css/main.f745e4f2.css.map",
-    "main.1ee11e1f.js.map": "/e-commerce/static/js/main.1ee11e1f.js.map"
+    "main.ec5c9c5b.css.map": "/e-commerce/static/css/main.ec5c9c5b.css.map",
+    "main.7202d46b.js.map": "/e-commerce/static/js/main.7202d46b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f745e4f2.css",
-    "static/js/main.1ee11e1f.js"
+    "static/css/main.ec5c9c5b.css",
+    "static/js/main.7202d46b.js"
   ]
 }
