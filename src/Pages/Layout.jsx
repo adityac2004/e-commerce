@@ -31,10 +31,10 @@ function Layout() {
             
             <NavLink to="/account" activeClassName="active">Account</NavLink>
           </div>
-       <div id="subbar">
+       {/* <div id="subbar">
          <div id='l'><RiLoginBoxLine /> sign in </div>
         <div id='k'><IoNotificationsCircleSharp /> </div>
-       </div>
+       </div> */}
     </nav>
     
       <section>

@@ -1,8 +1,9 @@
 .viewmore-container {
   padding: 20px;
   margin: 20px auto;
-  max-width: 90%;
-  width: 100%;
+  /* max-width: 90%; */
+  width: 800px;
+  height: 700px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -22,7 +23,7 @@
 .viewmore-container img {
   width: 100%;
   max-width: 400px;
-  height: auto;
+  height: 400px;
   border-radius: 10px;
   margin-bottom: 20px;
   object-fit: cover;
@@ -77,28 +78,42 @@
 .viewmore-container button:last-child:hover {
   background-color: #0056b3;
 }
+ 
 
-/* Tablet */
-@media (min-width: 600px) {
-  .viewmore-container {
-    max-width: 80%;
-  }
-  .viewmore-container h2 {
-    font-size: 28px;
-  }
+@media (max-width:480px) {
+  
+ .viewmore-container{
+width: 300px;
+height: auto;
+ }
+ .viewmore-container img {
+  width: 100px;
+  height: auto;
+ }
+ .viewmore-container h2{
+  font-size: 18px;
+
+ }
+ .viewmore-container p{
+  line-height: 1.3;
+ }
+ .viewmore-container button {
+  padding: 6px 16px;
+  font-size: 13px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
 }
 
-/* Desktop */
-@media (min-width: 900px) {
+}
+
+@media screen and (min-width:480px)  and (max-width:768px){
+
   .viewmore-container {
-    max-width: 700px;
+    height: 800px;
+    width: 600px;
   }
 
-  .viewmore-container p {
-    font-size: 17px;
-  }
 
-  .viewmore-container button {
-    font-size: 17px;
-  }
 }

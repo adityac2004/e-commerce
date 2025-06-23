@@ -8,7 +8,7 @@ const ViewMor = () => {
 
     const {id} = useParams()
     const [products, setproducts] = useState(null)
-        const url = `https://api.escuelajs.co/api/v1/products/${id}`;
+        const url = `https://fakestoreapi.com/products/${id}`;
     
         useEffect(()=>{
             async function fetchproduct() {
@@ -33,9 +33,9 @@ const ViewMor = () => {
   if (!isInCart) {
     const updatedCart = [...existingCart, products];
     localStorage.setItem('cart', JSON.stringify(updatedCart));
-    // alert("Product added to cart!");
+    alert("Product added to cart!");
   } else {
-    // alert("Product already in cart.");
+    alert("Product already in cart.");
   }
 };
     
@@ -44,13 +44,13 @@ const ViewMor = () => {
   <h2 className="product-title">{products.title}</h2>
 
   <div className="product-image-wrapper">
-    <img src={products.images[0]} alt={products.title} className="product-image" />
+    <img src={products.image} alt={products.title} className="product-image" />
   </div>
 
   <div className="product-details">
     <p className="product-description">{products.description}</p>
     <p className="product-price"><strong>Price:</strong> ${products.price}</p>
-    <p className="product-category"><strong>Category:</strong> {products.category?.name}</p>
+    <p className="product-category"><strong>Category:</strong> {products.category}</p>
   </div>
 
   <div className="buttons">

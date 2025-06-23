@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Api(){
     const[Apidata, setApidata] = useState([]);
-    let url = "https://api.escuelajs.co/api/v1/products";
+    let url = "https://fakestoreapi.com/products";
 
     useEffect(()=>{
         async function getdata() {
@@ -35,7 +35,7 @@ function Api(){
         <div className="products-grid">
           {Apidata.map((item, index) => (
             <div className="product-card" key={index}>
-              <img src={item.images[0]} alt={item.title} />
+              <img src={item.image} alt={item.title} />
               <div className="product-title">{item.title}</div>
               <div className="product-price">${item.price}</div>
                 <button id="btn1" > <Link to={`/viewmore/${item.id}`} >Buy Now </Link> </button>
